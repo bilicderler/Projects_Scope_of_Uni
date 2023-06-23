@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "try_to_detect_loc", "try_to_detect_loc\try_to_detect_loc.pyproj", "{59B79AFD-9727-4D47-8868-0528CB13B934}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59B79AFD-9727-4D47-8868-0528CB13B934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B79AFD-9727-4D47-8868-0528CB13B934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E5A40EC-26BB-4C3F-8271-B98A47E9F827}
+	EndGlobalSection
+EndGlobal
