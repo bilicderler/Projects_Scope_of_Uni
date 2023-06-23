@@ -1,4 +1,0 @@
-C:\Users\ak\source\repos\Flask-Todo-App\obj\Any CPU\Debug\Flask-Todo-App.pyproj.CoreCompileInputs.cache
-C:\Users\BILICI\OneDrive\Masaüstü\Flask-Todo-App\obj\Any CPU\Debug\Flask-Todo-App.pyproj.CoreCompileInputs.cache
-C:\Users\BILICI\OneDrive\Masaüstü\Flask-Todo-App - Kopya\obj\Any CPU\Debug\Flask-Todo-App.pyproj.CoreCompileInputs.cache
-C:\Users\BILICI\OneDrive\Masaüstü\Staj_Arayuz\obj\Any CPU\Debug\Flask-Todo-App.pyproj.CoreCompileInputs.cache
