@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+{% from "includes/formhelpers.html" import render_field %}
+
+<h3>Register from here...</h3>
+<hr>
+<form method="post" enctype="multipart/form-data" autocomplete="off">
+    {{ render_field(form.name,class = "form-control") }}
+    {{ render_field(form.pic,class = "form-control", required="", accept=".jpg,.jpeg,.png") }}
+
+
+    <button type="submit" class="btn btn-primary">Register</button>
+</form>
+
+{% endblock body %}
