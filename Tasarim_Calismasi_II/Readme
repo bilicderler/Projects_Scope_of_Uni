@@ -1,0 +1,3 @@
+When you execute the "Arayuz" program, you see the screen which contain some place to you enter the informations about objects', like it's name and photo.
+When you execute the detection program,"counter", camera opens and you can see this screen if they're matched with current image, taken from the cam, and reference photo, taken from database. about their numbers.
+When you execute the detection program,"location", camera opens and you can see this screen if they're matched with current image, taken from the cam, and reference photo, taken from database. about their locations and numbers.
