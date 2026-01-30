@@ -1,0 +1,52 @@
+// Arduino codes to project
+
+#define RED_PIN 9
+#define GREEN_PIN 10
+#define BLUE_PIN 11
+
+void setup() {
+  Serial.begin(9600);
+
+  pinMode(RED_PIN, OUTPUT);
+  pinMode(GREEN_PIN, OUTPUT);
+  pinMode(BLUE_PIN, OUTPUT);
+
+  ledOff();
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    char cmd = Serial.read();
+
+    switch (cmd) {
+      case 'C': // Circle → KIRMIZI
+        setColor(255, 0, 0);
+        break;
+
+      case 'S': // Square → YESIL
+        setColor(0, 255, 0);
+        break;
+
+      case 'T': // Triangle → MAVI
+        setColor(0, 0, 255);
+        break;
+
+      case 'N': // None → KAPALI
+        ledOff();
+        break;
+    }
+  }
+}
+
+// 🔥 COMMON ANODE DÖNÜŞÜMÜ BURADA
+void setColor(int r, int g, int b) {
+  analogWrite(RED_PIN,   255 - r);
+  analogWrite(GREEN_PIN, 255 - g);
+  analogWrite(BLUE_PIN,  255 - b);
+}
+
+void ledOff() {
+  analogWrite(RED_PIN, 255);
+  analogWrite(GREEN_PIN, 255);
+  analogWrite(BLUE_PIN, 255);
+}
